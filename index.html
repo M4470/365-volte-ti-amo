@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>365 volte, ti amo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">365 volte, ti amo</h1>
+        <p class="subtitle" data-en="A love message for each day of the year"
+                          data-pt="Uma mensagem de amor para cada dia do ano"
+                          data-it="Un messaggio d'amore per ogni giorno dell'anno"></p>
+        
+        <div class="day-count">
+            <span id="day-number">Day 0</span>
+        </div>
+        
+        <div class="language-selector">
+            <button class="language-btn" data-lang="en">EN</button>
+            <button class="language-btn active" data-lang="pt">PT</button>
+            <button class="language-btn" data-lang="it">IT</button>
+        </div>
+        
+        <div id="phrase-box" class="content-box">
+            <p id="phrase" class="love-phrase">Loading today's phrase...</p>
+            
+            <div class="player-container">
+                <div id="track-title" class="track-title">Loading...</div>
+                <audio id="audio-player"></audio>
+                <div class="controls">
+                    <button id="prev-btn" class="control-btn">⟲</button>
+                    <button id="play-btn" class="control-btn play-pause">▶️</button>
+                    <button id="next-btn" class="control-btn">⟳</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p data-en="Made with love, started on April 24, 2025"
+               data-pt="Feito com amor, começou em 24 de abril de 2025"
+               data-it="Fatto con amore, iniziato il 24 aprile 2025"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

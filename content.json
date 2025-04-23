@@ -1,0 +1,56 @@
+{
+  "phrases": [
+    {
+      "en": "When I look into your eyes, I see not just the person you are, but all the love we could share in 365 days.",
+      "pt": "Quando olho nos seus olhos, vejo não apenas a pessoa que você é, mas todo o amor que poderíamos compartilhar em 365 dias.",
+      "it": "Quando guardo nei tuoi occhi, vedo non solo la persona che sei, ma tutto l'amore che potremmo condividere in 365 giorni."
+    },
+    {
+      "en": "They say home is where the heart is. My heart found its home the moment I met you.",
+      "pt": "Dizem que o lar é onde o coração está. Meu coração encontrou seu lar no momento em que te conheci.",
+      "it": "Dicono che casa è dove si trova il cuore. Il mio cuore ha trovato la sua casa nel momento in cui ti ho incontrato."
+    }
+    /* 
+    Add remaining 363 phrases following this format:
+    {
+      "en": "English phrase for day X",
+      "pt": "Portuguese phrase for day X",
+      "it": "Italian phrase for day X"
+    },
+    
+    Note: Remember to remove this comment and the comma after the last item in production.
+    */
+  ],
+  "tracks": [
+    {
+      "url": "https://example.com/audio/day0.mp3",
+      "title": {
+        "en": "Our First Song - Artist Name",
+        "pt": "Nossa Primeira Música - Nome do Artista",
+        "it": "La Nostra Prima Canzone - Nome dell'Artista"
+      }
+    },
+    {
+      "url": "https://example.com/audio/day1.mp3",
+      "title": {
+        "en": "Remember That Night - Artist Name",
+        "pt": "Lembra Daquela Noite - Nome do Artista",
+        "it": "Ricordi Quella Notte - Nome dell'Artista"
+      }
+    }
+    /*
+    Add remaining 363 tracks following this format:
+    {
+      "url": "https://example.com/audio/dayX.mp3", 
+      "title": {
+        "en": "English title - Artist",
+        "pt": "Portuguese title - Artist",
+        "it": "Italian title - Artist"
+      }
+    },
+    
+    Note: Remember to remove this comment and the comma after the last item in production.
+    URL can be a direct MP3 file or any audio format supported by HTML5 audio.
+    */
+  ]
+}
